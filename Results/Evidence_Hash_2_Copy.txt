@@ -1,0 +1,4 @@
+File : CCC2021AnnualReport.pdf
+Algorithm : SHA256
+Hash      : CE968515A937C060172EC454A4D04294A87F48EE5021E522B69D33A84E11BF64
+Path      : C:\Users\s541931\Documents\Spring2023\DigitalForensics\GithubRepositories\df-mod2-forensic-copy\EvidenceFiles-Copy-2023-03-24\CCC2021AnnualReport.pdf

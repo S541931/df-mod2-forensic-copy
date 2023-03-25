@@ -1,0 +1,4 @@
+File : 08-sudoers.pptx
+Algorithm : SHA256
+Hash      : 375CD94A2FC2FA346BD2FEEBF35224A75075BE5104582F165F30D0E021A864F8
+Path      : C:\Users\s541931\Documents\Spring2023\DigitalForensics\GithubRepositories\df-mod2-forensic-copy\EvidenceFiles\08-sudoers.pptx

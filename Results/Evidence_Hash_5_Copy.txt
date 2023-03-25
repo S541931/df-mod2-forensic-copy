@@ -1,0 +1,4 @@
+File : mssql_tcp_error_strace.txt
+Algorithm : SHA256
+Hash      : 999ADFA23752597A151B99D481B73AF5FBA45F0B481376EB432BFB9510777EC0
+Path      : C:\Users\s541931\Documents\Spring2023\DigitalForensics\GithubRepositories\df-mod2-forensic-copy\EvidenceFiles-Copy-2023-03-24\mssql_tcp_error_strace.txt

@@ -1,0 +1,266 @@
+root@7f73d863b0da:/# strace /opt/mssql-tools/bin/sqlcmd -S localhost -U sa -P B0rland! -d master -i /opt/setup.sql                                                                                                                                                                
+execve("/opt/mssql-tools/bin/sqlcmd", ["/opt/mssql-tools/bin/sqlcmd", "-S", "localhost", "-U", "sa", "-P", "B0rland!", "-d", "master", "-i", "/opt/setup.sql"], [/* 10 vars */]) = 0
+brk(NULL)                               = 0x2045000
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f505abc3000
+access("/etc/ld.so.preload", R_OK)      = -1 ENOENT (No such file or directory)
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=14043, ...}) = 0
+mmap(NULL, 14043, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f505abbf000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libdl.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\240\r\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14608, ...}) = 0
+mmap(NULL, 2109680, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f505a79c000
+mprotect(0x7f505a79f000, 2093056, PROT_NONE) = 0
+mmap(0x7f505a99e000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f505a99e000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libodbc.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320e\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=427552, ...}) = 0
+mmap(NULL, 2525896, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f505a533000
+mprotect(0x7f505a594000, 2093056, PROT_NONE) = 0
+mmap(0x7f505a793000, 32768, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x60000) = 0x7f505a793000
+mmap(0x7f505a79b000, 2760, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f505a79b000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libuuid.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\20\25\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=18976, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f505abbe000
+mmap(NULL, 2113904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f505a32e000
+mprotect(0x7f505a332000, 2093056, PROT_NONE) = 0
+mmap(0x7f505a531000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x3000) = 0x7f505a531000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libstdc++.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0 \235\10\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1566440, ...}) = 0
+mmap(NULL, 3675136, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5059fac000
+mprotect(0x7f505a11e000, 2097152, PROT_NONE) = 0
+mmap(0x7f505a31e000, 49152, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x172000) = 0x7f505a31e000
+mmap(0x7f505a32a000, 13312, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f505a32a000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libgcc_s.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0p*\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=89696, ...}) = 0
+mmap(NULL, 2185488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5059d96000
+mprotect(0x7f5059dac000, 2093056, PROT_NONE) = 0
+mmap(0x7f5059fab000, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f5059fab000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libpthread.so.0", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260`\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=138696, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f505abbd000
+mmap(NULL, 2212904, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5059b79000
+mprotect(0x7f5059b91000, 2093056, PROT_NONE) = 0
+mmap(0x7f5059d90000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x17000) = 0x7f5059d90000
+mmap(0x7f5059d92000, 13352, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5059d92000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libc.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0P\t\2\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0755, st_size=1868984, ...}) = 0
+mmap(NULL, 3971488, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f50597af000
+mprotect(0x7f505996f000, 2097152, PROT_NONE) = 0
+mmap(0x7f5059b6f000, 24576, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x1c0000) = 0x7f5059b6f000
+mmap(0x7f5059b75000, 14752, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5059b75000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/usr/lib/x86_64-linux-gnu/libltdl.so.7", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\36\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=39272, ...}) = 0
+mmap(NULL, 2134448, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f50595a5000
+mprotect(0x7f50595ae000, 2093056, PROT_NONE) = 0
+mmap(0x7f50597ad000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x8000) = 0x7f50597ad000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libm.so.6", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\3\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0V\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=1088952, ...}) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f505abbc000
+mmap(NULL, 3178744, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f505929c000
+mprotect(0x7f50593a4000, 2093056, PROT_NONE) = 0
+mmap(0x7f50595a3000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x107000) = 0x7f50595a3000
+close(3)                                = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f505abbb000
+mmap(NULL, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f505abb9000
+arch_prctl(ARCH_SET_FS, 0x7f505abb9780) = 0
+mprotect(0x7f5059b6f000, 16384, PROT_READ) = 0
+mprotect(0x7f50595a3000, 4096, PROT_READ) = 0
+mprotect(0x7f505a99e000, 4096, PROT_READ) = 0
+mprotect(0x7f50597ad000, 4096, PROT_READ) = 0
+mprotect(0x7f5059d90000, 4096, PROT_READ) = 0
+mmap(NULL, 4096, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS, -1, 0) = 0x7f505abb8000
+mprotect(0x7f505a31e000, 40960, PROT_READ) = 0
+mprotect(0x7f505a531000, 4096, PROT_READ) = 0
+mprotect(0x7f505a793000, 4096, PROT_READ) = 0
+mprotect(0x665000, 12288, PROT_READ)    = 0
+mprotect(0x7f505abc5000, 4096, PROT_READ) = 0
+munmap(0x7f505abbf000, 14043)           = 0
+set_tid_address(0x7f505abb9a50)         = 752
+set_robust_list(0x7f505abb9a60, 24)     = 0
+rt_sigaction(SIGRTMIN, {0x7f5059b7eb50, [], SA_RESTORER|SA_SIGINFO, 0x7f5059b8a390}, NULL, 8) = 0
+rt_sigaction(SIGRT_1, {0x7f5059b7ebe0, [], SA_RESTORER|SA_RESTART|SA_SIGINFO, 0x7f5059b8a390}, NULL, 8) = 0
+rt_sigprocmask(SIG_UNBLOCK, [RTMIN RT_1], NULL, 8) = 0
+getrlimit(RLIMIT_STACK, {rlim_cur=8192*1024, rlim_max=RLIM64_INFINITY}) = 0
+brk(NULL)                               = 0x2045000
+brk(0x2077000)                          = 0x2077000
+rt_sigaction(SIGHUP, {0x4210d0, [], SA_RESTORER, 0x7f5059b8a390}, NULL, 8) = 0
+rt_sigaction(SIGQUIT, {0x4210d0, [], SA_RESTORER, 0x7f5059b8a390}, NULL, 8) = 0
+rt_sigaction(SIGABRT, {0x4210d0, [], SA_RESTORER, 0x7f5059b8a390}, NULL, 8) = 0
+rt_sigaction(SIGTERM, {0x4210d0, [], SA_RESTORER, 0x7f5059b8a390}, NULL, 8) = 0
+rt_sigaction(SIGINT, {0x4210d0, [], SA_RESTORER, 0x7f5059b8a390}, NULL, 8) = 0
+open("/usr/lib/x86_64-linux-gnu/gconv/gconv-modules.cache", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=26258, ...}) = 0
+mmap(NULL, 26258, PROT_READ, MAP_SHARED, 3, 0) = 0x7f505abb1000
+close(3)                                = 0
+futex(0x7f5059b748c8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/usr/lib/x86_64-linux-gnu/gconv/UTF-16.so", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\0\7\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=14496, ...}) = 0
+mmap(NULL, 2109528, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5059098000
+mprotect(0x7f505909b000, 2093056, PROT_NONE) = 0
+mmap(0x7f505929a000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x2000) = 0x7f505929a000
+close(3)                                = 0
+mprotect(0x7f505929a000, 4096, PROT_READ) = 0
+futex(0x7f505a32b1ac, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+futex(0x7f505a32b1b8, FUTEX_WAKE_PRIVATE, 2147483647) = 0
+open("/opt/mssql-tools/bin/../share/resources/en_US/SQLCMD.rll", O_RDONLY) = 3
+read(3, "MZ\220\0\3\0\0\0\4\0\0\0\377\377\0\0\270\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 8191) = 8191
+lseek(3, 0, SEEK_END)                   = 23040
+lseek(3, 0, SEEK_CUR)                   = 23040
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "MZ\220\0\3\0\0\0\4\0\0\0\377\377\0\0\270\0\0\0\0\0\0\0@\0\0\0\0\0\0\0"..., 23040) = 23040
+close(3)                                = 0
+geteuid()                               = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+socket(PF_LOCAL, SOCK_STREAM|SOCK_CLOEXEC|SOCK_NONBLOCK, 0) = 3
+connect(3, {sa_family=AF_LOCAL, sun_path="/var/run/nscd/socket"}, 110) = -1 ENOENT (No such file or directory)
+close(3)                                = 0
+open("/etc/nsswitch.conf", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=497, ...}) = 0
+read(3, "# /etc/nsswitch.conf\n#\n# Example"..., 4096) = 497
+read(3, "", 4096)                       = 0
+close(3)                                = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=14043, ...}) = 0
+mmap(NULL, 14043, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f505abbf000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_compat.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\320\22\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=35688, ...}) = 0
+mmap(NULL, 2131040, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5058e8f000
+mprotect(0x7f5058e97000, 2093056, PROT_NONE) = 0
+mmap(0x7f5059096000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x7000) = 0x7f5059096000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnsl.so.1", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\360?\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=93128, ...}) = 0
+mmap(NULL, 2198104, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5058c76000
+mprotect(0x7f5058c8c000, 2093056, PROT_NONE) = 0
+mmap(0x7f5058e8b000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0x15000) = 0x7f5058e8b000
+mmap(0x7f5058e8d000, 6744, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5058e8d000
+close(3)                                = 0
+mprotect(0x7f5058e8b000, 4096, PROT_READ) = 0
+mprotect(0x7f5059096000, 4096, PROT_READ) = 0
+munmap(0x7f505abbf000, 14043)           = 0
+open("/etc/ld.so.cache", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=14043, ...}) = 0
+mmap(NULL, 14043, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f505abbf000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_nis.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260 \0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47648, ...}) = 0
+mmap(NULL, 2143624, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5058a6a000
+mprotect(0x7f5058a75000, 2093056, PROT_NONE) = 0
+mmap(0x7f5058c74000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f5058c74000
+close(3)                                = 0
+access("/etc/ld.so.nohwcap", F_OK)      = -1 ENOENT (No such file or directory)
+open("/lib/x86_64-linux-gnu/libnss_files.so.2", O_RDONLY|O_CLOEXEC) = 3
+read(3, "\177ELF\2\1\1\0\0\0\0\0\0\0\0\0\3\0>\0\1\0\0\0\260!\0\0\0\0\0\0"..., 832) = 832
+fstat(3, {st_mode=S_IFREG|0644, st_size=47600, ...}) = 0
+mmap(NULL, 2168600, PROT_READ|PROT_EXEC, MAP_PRIVATE|MAP_DENYWRITE, 3, 0) = 0x7f5058858000
+mprotect(0x7f5058863000, 2093056, PROT_NONE) = 0
+mmap(0x7f5058a62000, 8192, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_DENYWRITE, 3, 0xa000) = 0x7f5058a62000
+mmap(0x7f5058a64000, 22296, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_FIXED|MAP_ANONYMOUS, -1, 0) = 0x7f5058a64000
+close(3)                                = 0
+mprotect(0x7f5058a62000, 4096, PROT_READ) = 0
+mprotect(0x7f5058c74000, 4096, PROT_READ) = 0
+munmap(0x7f505abbf000, 14043)           = 0
+open("/etc/passwd", O_RDONLY|O_CLOEXEC) = 3
+lseek(3, 0, SEEK_CUR)                   = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=1239, ...}) = 0
+mmap(NULL, 1239, PROT_READ, MAP_SHARED, 3, 0) = 0x7f505abc2000
+lseek(3, 1239, SEEK_SET)                = 1239
+munmap(0x7f505abc2000, 1239)            = 0
+close(3)                                = 0
+uname({sysname="Linux", nodename="7f73d863b0da", ...}) = 0
+open("/usr/lib/locale/locale-archive", O_RDONLY|O_CLOEXEC) = 3
+fstat(3, {st_mode=S_IFREG|0644, st_size=1668976, ...}) = 0
+mmap(NULL, 1668976, PROT_READ, MAP_PRIVATE, 3, 0) = 0x7f505aa19000
+close(3)                                = 0
+brk(0x20a2000)                          = 0x20a2000
+brk(0x20d2000)                          = 0x20d2000
+fstat(0, {st_mode=S_IFCHR|0600, st_rdev=makedev(136, 16), ...}) = 0
+open("/opt/mssql-tools/bin/../share/resources/en_US/BatchParserGrammar.dfa", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=48088, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0444, st_size=48088, ...}) = 0
+lseek(3, 45056, SEEK_SET)               = 45056
+read(3, "\6\0\0\0-\0\0\0-\0\0\0\17\0\0\0000\0\0\0009\0\0\0\17\0\0\0A\0\0\0"..., 3032) = 3032
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "\26\0\0\0XLSS\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0\0"..., 45056) = 45056
+read(3, "\6\0\0\0-\0\0\0-\0\0\0\17\0\0\0000\0\0\0009\0\0\0\17\0\0\0A\0\0\0"..., 4096) = 3032
+close(3)                                = 0
+brk(0x20f3000)                          = 0x20f3000
+open("/opt/mssql-tools/bin/../share/resources/en_US/BatchParserGrammar.llr", O_RDONLY) = 3
+fstat(3, {st_mode=S_IFREG|0444, st_size=10196, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0444, st_size=10196, ...}) = 0
+lseek(3, 8192, SEEK_SET)                = 8192
+read(3, "\6\0\0\0\25\0\0 G\0\0\0\25\0\0 H\0\0\0\25\0\0 R\0\0\0\25\0\0 "..., 2004) = 2004
+lseek(3, 0, SEEK_SET)                   = 0
+read(3, "CYSS\\\0\0\0\201\0\0\0\370\4\0\0\30\2\0\0\370\4\0\0\274\5\0\0 \7\0\0"..., 8192) = 8192
+read(3, "\6\0\0\0\25\0\0 G\0\0\0\25\0\0 H\0\0\0\25\0\0 R\0\0\0\25\0\0 "..., 4096) = 2004
+close(3)                                = 0
+access("/opt/setup.sql", F_OK)          = 0
+open("/opt/setup.sql", O_RDONLY)        = 3
+fadvise64(3, 0, 0, POSIX_FADV_SEQUENTIAL) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=227, ...}) = 0
+fstat(3, {st_mode=S_IFREG|0644, st_size=227, ...}) = 0
+read(3, "CREATE DATABASE [AFPDM]\nGO\n--CRE"..., 4096) = 227
+lseek(3, 0, SEEK_SET)                   = 0
+open("/etc/odbcinst.ini", O_RDONLY)     = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=161, ...}) = 0
+read(4, "[ODBC Driver 13 for SQL Server]\n"..., 4096) = 161
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+open("/root/.odbcinst.ini", O_RDONLY)   = -1 ENOENT (No such file or directory)
+open("/etc/odbcinst.ini", O_RDONLY)     = 4
+fstat(4, {st_mode=S_IFREG|0644, st_size=161, ...}) = 0
+read(4, "[ODBC Driver 13 for SQL Server]\n"..., 4096) = 161
+read(4, "", 4096)                       = 0
+close(4)                                = 0
+open("/root/.odbcinst.ini", O_RDONLY)   = -1 ENOENT (No such file or directory)
+mmap(NULL, 8392704, PROT_READ|PROT_WRITE, MAP_PRIVATE|MAP_ANONYMOUS|MAP_STACK, -1, 0) = 0x7f5058057000
+mprotect(0x7f5058057000, 4096, PROT_NONE) = 0
+clone(child_stack=0x7f5058856f70, flags=CLONE_VM|CLONE_FS|CLONE_FILES|CLONE_SIGHAND|CLONE_THREAD|CLONE_SYSVSEM|CLONE_SETTLS|CLONE_PARENT_SETTID|CLONE_CHILD_CLEARTID, parent_tidptr=0x7f50588579d0, tls=0x7f5058857700, child_tidptr=0x7f50588579d0) = 753
+futex(0x7ffc1f08a51c, FUTEX_WAIT_PRIVATE, 1, NULL) = 0
+futex(0x206ded0, FUTEX_WAKE_PRIVATE, 1) = 0
+write(2, "Sqlcmd: Error: Microsoft ODBC Dr"..., 517Sqlcmd: Error: Microsoft ODBC Driver 13 for SQL Server : Login timeout expired.
+Sqlcmd: Error: Microsoft ODBC Driver 13 for SQL Server : TCP Provider: Error code 0x2749.
+Sqlcmd: Error: Microsoft ODBC Driver 13 for SQL Server : A network-related or instance-specific error has occurred while establishing a connection to SQL Server. Server is not found or not accessible. Check if instance name is correct and if SQL Server is configured to allo
+w remote connections. For more information see SQL Server Books Online..
+) = 517
+close(4)                                = 0
+exit_group(1)                           = ?
++++ exited with 1 +++
+

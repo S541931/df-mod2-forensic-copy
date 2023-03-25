@@ -1,0 +1,4 @@
+File : HillIB12e_HistoricCase_ABInBevBeerGlobally_FNL.doc
+Algorithm : SHA256
+Hash      : 8A5BB107B220BF7BFF34399A07ADEB1FA941C21F29360F580D73D5AF09B21412
+Path      : C:\Users\s541931\Documents\Spring2023\DigitalForensics\GithubRepositories\df-mod2-forensic-copy\EvidenceFiles-Copy-2023-03-24\HillIB12e_HistoricCase_ABInBevBeerGlobally_FNL.doc
